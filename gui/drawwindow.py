@@ -711,6 +711,13 @@ class DrawWindow (Gtk.Window):
 
     def about_cb(self, action):
         gui.meta.run_about_dialog(self, self.app)
+	
+    def show_wizard_cb(self, action):
+        print(os.getcwd())
+        os.chdir("lowell")
+        os.popen("python mypaintWizard.py")
+        os.chdir("..")
+        print(os.getcwd())
 
     def show_online_help_cb(self, action):
         # The online help texts are migrating to the wiki for v1.2.x.

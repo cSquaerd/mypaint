@@ -1219,7 +1219,14 @@ Vocabulary
         </object>
         <accelerator key="F1"/>
       </child>
-      <child>
+	<child>
+		<object class="GtkAction" id="LowellWizard">
+			<property name="label" translatable="yes" context="Menu→Help (labels), Accel Editor (labels)">GUI Setup Wizard</property>
+			<property name="tooltip" translatable="yes" context="Accel Editor (descriptions">Launch a wizard that shows you how to find useful GUI elements</property>
+			<signal name="activate" handler="show_wizard_cb"/>
+		</object>
+	</child>
+	  <child>
         <object class="GtkAction" id="About">
           <property name="label" translatable="yes" context="Menu→Help (labels), Accel Editor (labels)">About MyPaint</property>
           <property name="tooltip" translatable="yes" context="Accel Editor (descriptions)">Show MyPaint’s license, version number, and credits.</property>

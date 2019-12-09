@@ -309,7 +309,8 @@
         <menuitem action='RunGarbageCollector'/>
         <menuitem action='StartProfiling'/>
       </menu>
-      <separator/>
+	  <separator/>
+      <menuitem action='LowellWizard'/>
       <menuitem action='About'/>
     </menu>
   </menubar>
