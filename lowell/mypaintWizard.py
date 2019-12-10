@@ -108,10 +108,10 @@ labelBrush = tk.Label(frameP2, font = fontNormal, wraplength = 640, justify = tk
 page2Vars = [tk.IntVar(), tk.IntVar(), tk.IntVar(), tk.IntVar(), tk.IntVar(), tk.IntVar(), tk.IntVar()]
 checkClassic = tk.Checkbutton(frameP2, font = fontNormal, anchor = tk.W, variable = page2Vars[0], text = "Classic (Default brush group)")
 checkExperimental = tk.Checkbutton(frameP2, font = fontNormal, anchor = tk.W, variable = page2Vars[1], text = "Experimental (Esoteric brush group)")
-checkSet1 = tk.Checkbutton(frameP2, font = fontNormal, anchor = tk.W, variable = page2Vars[2], text = "Set #1 (Icons show example brush strokes)")
-checkSet2 = tk.Checkbutton(frameP2, font = fontNormal, anchor = tk.W, variable = page2Vars[3], text = "Set #2 (Icons show real world brushes and pens)")
-checkSet3 = tk.Checkbutton(frameP2, font = fontNormal, anchor = tk.W, variable = page2Vars[4], text = "Set #3 (Features acrylics, oils, and charcoals)")
-checkSet4 = tk.Checkbutton(frameP2, font = fontNormal, anchor = tk.W, variable = page2Vars[5], text = "Set #4 (Features digital-style brushes)")
+checkSet1 = tk.Checkbutton(frameP2, font = fontNormal, anchor = tk.W, variable = page2Vars[2], text = "Ramon (Icons show example brush strokes)")
+checkSet2 = tk.Checkbutton(frameP2, font = fontNormal, anchor = tk.W, variable = page2Vars[3], text = "Deevad (Icons show real world brushes and pens)")
+checkSet3 = tk.Checkbutton(frameP2, font = fontNormal, anchor = tk.W, variable = page2Vars[4], text = "Tanda (Features acrylics, oils, and charcoals)")
+checkSet4 = tk.Checkbutton(frameP2, font = fontNormal, anchor = tk.W, variable = page2Vars[5], text = "Kaerhon (Features digital-style brushes)")
 checkBrushSliders = tk.Checkbutton(frameP2, font =fontNormal, anchor = tk.NW, justify = tk.LEFT, wraplength = 600, variable = page2Vars[6], text = "Universal Brush Settings Sliders (controls brush size, opacity, and other features)")
 
 labelBrush.grid(row = 1, column = 1, columnspan = 2)
@@ -156,10 +156,10 @@ def updatePage4():
 	page2Strings = [ \
 		"Classic Brushes: Click the \"Brush\" menu, then \"Brush Groups >\", then \"Classic\". Drag it to anywhere on either dock if you wish.\n", \
 		"Experimental Brushes: Click the \"Brush\" menu, then \"Brush Groups >\", then \"Experimental\". Drag it to anywhere on either dock if you wish.\n", \
-		"Brushes Set #1: Click the \"Brush\" menu, then \"Brush Groups >\", then \"Set#1\". Drag it to anywhere on either dock if you wish.\n", \
-		"Brushes Set #2: Click the \"Brush\" menu, then \"Brush Groups >\", then \"Set#2\". Drag it to anywhere on either dock if you wish.\n", \
-		"Brushes Set #3: Click the \"Brush\" menu, then \"Brush Groups >\", then \"Set#3\". Drag it to anywhere on either dock if you wish.\n", \
-		"Brushes Set #4: Click the \"Brush\" menu, then \"Brush Groups >\", then \"Set#4\". Drag it to anywhere on either dock if you wish.\n", \
+		"Ramon Brushes : Click the \"Brush\" menu, then \"Brush Groups >\", then \"Ramon\". Drag it to anywhere on either dock if you wish.\n", \
+		"Deevad Brushes : Click the \"Brush\" menu, then \"Brush Groups >\", then \"Deevad\". Drag it to anywhere on either dock if you wish.\n", \
+		"Tanda Brushes : Click the \"Brush\" menu, then \"Brush Groups >\", then \"Tanda\". Drag it to anywhere on either dock if you wish.\n", \
+		"Kaerhon Brushes : Click the \"Brush\" menu, then \"Brush Groups >\", then \"Kaerhon\". Drag it to anywhere on either dock if you wish.\n", \
 		"Brush Settings Sliders: Click the \"Window\" menu, then \"Tool Options Panel\". Drag it to anywhere on either dock if you wish.\n", \
 	]
 	page3Strings = [ \
